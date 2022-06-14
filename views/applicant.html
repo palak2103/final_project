@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Apply for job</title>
+</head>
+
+<body class="">
+
+    <form method="post" action="applicant">
+        <div class="bg-gray-100  py-10 rounded max-w-lg mx-auto ">
+            <div class="text-black-700">
+                <div class="flex items-center space-x-2 font-semibold text-gray-900 leading-8">
+                    <span clas="text-green-500">
+                    
+                </span>
+                    <span class="text-center font-bold text-blue-800 text-xl text-center tracking-wide"> Personal Information</span>
+                </div>
+
+                <div>
+                    <label class="block " for="First name">FirstName :-<label>
+                        <input type="text" placeholder="Enter your first name" name="firstname"
+                        class="px-4 py-2 mt-2 border  rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600">                         
+                    </div>
+                <div>
+                    <label class="block" for="lastname">LastName :-<label>
+                        <input type="text" placeholder="Enter your last name" name="lastname"
+                        class=" px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600">
+                    </div>
+                
+                <div>
+                    <label class="block" for="current address">ContactNo :-<label>
+                        <input type="text" placeholder="Contactno" name="Contactno"
+                        class="px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600">
+                    </div>
+                <div>
+                    <label class="block" for="EmailId ">EmailId:-<label>
+                        <input type="email" placeholder="EmailId" name="emailid"
+                        class="px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600">
+                    </div>
+                <div>
+                    <label class="block" for="currentaddress">CurrentAddress:-<label>
+                        <input type="text" placeholder="current address" name="currentaddress"
+                        class="px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600">
+                    </div>
+                                
+                    <div>        
+                        <label class="block" for="permanantaddress">PermanantAddress:-<label>   
+                            <input type="text" placeholder="Permanantaddress" name="permanantaddress"
+                            class="px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600">    
+                        </div>
+                        <div>        
+                            <label class="block" for="qualification">Qualification:-<label>   
+                                <input type="text" placeholder="Qualification" name="qualification"
+                                class="px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600">    
+                            </div>
+                            <div>        
+                                <label class="block" for="currentstatus">Currentstatus:-<label>   
+                                    <input type="text" placeholder="currentstatus" name="currentstatus"
+                                    class="px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600">    
+                                </div>
+
+                                <div>
+                                    <label class="block" for="company">Company:-<label>
+                                        <input type="text" placeholder="company" name="company"
+                                        class="px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600">
+                                    </div>
+                                    <div>
+                                        <label class="block" for="position">Position:-<label>
+                                            <input type="text" placeholder="Position" name="position"
+                                            class="px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600">
+                                        </div>
+
+                                        <div>
+                                            <label class="block" for="skills">Skills:-<label>
+                                                <input type="text" placeholder="Skills" name="skills"
+                                                class="px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600">
+                                            </div>
+
+                    <div>
+                        <button 
+                        type="submit"
+                        class=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-10 rounded mr-40">Done</button>
+                        <!-- <button 
+                        class="block w-full text-blue-800 text-sm font-semibold rounded-lg hover:bg-gray-100 focus:outline-none focus:shadow-outline focus:bg-gray-100 hover:shadow-xs p-3 my-4">
+                         Show More Information</button> -->
+                    </div>
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>
